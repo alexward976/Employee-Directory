@@ -1,0 +1,1 @@
+<h1>There was an error connecting to the database</h1>
