@@ -1,5 +1,13 @@
 <?php
 
+/*
+
+Main Controller: this file handles input from the user and displays the appropriate
+views. When an attempt add, delete, or update an employee is made, the controller handles
+its success or failure.
+
+*/
+
 require_once 'models/emp-model.php';
 
 $action = filter_input(INPUT_POST, 'action');

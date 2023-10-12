@@ -1,6 +1,8 @@
 <?php
 
+// Establish connection to employee_dir MySQL database
 function empDirConnect(){
+    // Create variables for user login info
     $server = 'localhost';
     $dbname= 'employee_dir';
     $username = 'iClient';
